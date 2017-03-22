@@ -10,7 +10,6 @@ sudo apt-get -y install php7.1 php-xdebug php7.1-mysql libapache2-mod-php7.1 php
 #sudo apt-get -y upgrade
 echo "-- switch php 5 to 7.1 --"
 sudo a2dismod php5
-sudo apt-get purge php5
 sudo service apache2 restart
 sudo a2enmod php7.1
 sudo service apache2 restart
